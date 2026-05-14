@@ -1,0 +1,12 @@
+[input]
+spec = "./openapi.json"
+
+[generator]
+oci = "ghcr.io/marcusdunn/generator-rust-tower:v0.1.9"
+
+[output]
+dir = "out"
+
+# Optional: chain one or more transformer plugins before the generator
+# [[transformers]]
+# wasm = "./plugins/my-transformer.wasm"
